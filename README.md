@@ -78,5 +78,5 @@ If you don't have a `.mhd` or `.dcm` file, simply upload any small file (like a 
 
 ---
 
-## 📝 License
+License
 MVP version for educational and demonstration purposes.
