@@ -1,0 +1,10 @@
+venv/
+uploads/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+*.pt
+*.pth
+*.h5
