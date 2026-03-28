@@ -18,7 +18,8 @@ const UploadZone: React.FC<UploadZoneProps> = ({ onUploadSuccess }) => {
     formData.append('file', file);
 
     try {
-      const response = await fetch('http://localhost:8000/upload', {
+     const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${apiBaseUrl}/upload`, {
         method: 'POST',
         body: formData,
       });
