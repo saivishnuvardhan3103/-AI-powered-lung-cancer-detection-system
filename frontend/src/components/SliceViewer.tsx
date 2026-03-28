@@ -21,7 +21,9 @@ const SliceViewer: React.FC<SliceViewerProps> = ({ filename, numSlices, detectio
   const fetchAndDrawSlice = async (idx: number) => {
     setIsLoading(true);
     try {
-      const response = await fetch(`http://localhost:8000/slice/${filename}/${idx}`);
+      const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const response = await fetch(`${apiBaseUrl}/slice/${filename}/${idx}`);
+
       const data = await response.json();
       const slice = data.slice; // 2D array [H, W] normalized 0-1
       
