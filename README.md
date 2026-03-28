@@ -2,7 +2,7 @@
 
 LungSense AI is an end-to-end medical imaging analysis platform designed to detect pulmonary nodules and assess malignancy risk from 3D CT scans.
 
-## 🚀 Features
+Features
 - **3D CT Scan Support**: Processes DICOM, NIfTI, and MHD formats.
 - **Deep Learning Pipeline**:
   - **Detection**: 3D U-Net for nodule localization.
@@ -15,14 +15,14 @@ LungSense AI is an end-to-end medical imaging analysis platform designed to dete
 
 ---
 
-## 🛠️ Tech Stack
+Tech Stack
 - **Backend**: FastAPI, PyTorch, SimpleITK, NumPy.
 - **Frontend**: React, TypeScript, Vite, Tailwind CSS, Lucide Icons.
 - **Environment**: Isolated Python Virtual Environment (venv).
 
 ---
 
-## 🏃 Getting Started
+Getting Started
 
 ### 1. Prerequisites
 - Python 3.9+
@@ -48,7 +48,7 @@ cd ..
 
 ---
 
-## 📡 Running the Application
+Running the Application
 
 ### Start Backend (Terminal 1)
 ```powershell
@@ -65,7 +65,7 @@ Navigate to **http://localhost:5173** to view the application.
 
 ---
 
-## 📁 Project Structure
+Project Structure
 - `backend/`: FastAPI application, models, and preprocessing logic.
 - `frontend/`: React application and UI components.
 - `uploads/`: Temporary storage for uploaded scans.
@@ -73,7 +73,7 @@ Navigate to **http://localhost:5173** to view the application.
 
 ---
 
-## 🧪 Testing with Demo Mode
+Testing with Demo Mode
 If you don't have a `.mhd` or `.dcm` file, simply upload any small file (like a `.png` or `.txt`) to the dashboard. The system will automatically trigger **Simulated Results** with randomized 3D volumes and nodules to demonstrate the full analysis terminal.
 
 ---
