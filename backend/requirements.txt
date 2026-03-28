@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+numpy
+torch
+torchvision
+SimpleITK
+pydicom
+nibabel
+scikit-image
+opencv-python
+matplotlib
+python-dotenv
+scipy
